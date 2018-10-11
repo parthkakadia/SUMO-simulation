@@ -1,0 +1,26 @@
+<routes>
+  <vType id="BoogyA" length="5.75" maxSpeed="90.0" sigma="0.4" />
+  <vType id="BoogyB" length="7.5" maxSpeed="60.0" sigma="0.7" />
+  <route id="rou01" edges="A B C D"/>
+  <route id="rou02" edges="A B E"/>
+  <vehicle depart="0" id="v0" route="rou01" type="BoogyA" color="1,0,0" /> 
+  <vehicle depart="1" id="v1" route="rou02" type="BoogyA" />
+  <vehicle depart="2" id="v2" route="rou01" type="BoogyA" />
+  <vehicle depart="3" id="v3" route="rou02" type="BoogyA" />
+  <vehicle depart="5" id="v4" route="rou01" type="BoogyA" />
+  <vehicle depart="6" id="v5" route="rou02" type="BoogyA" />
+  <vehicle depart="7" id="v6" route="rou01" type="BoogyA" />
+  <vehicle depart="8" id="v7" route="rou02" type="BoogyA" />
+  <vehicle depart="9" id="v8" route="rou01" type="BoogyA" />
+  <vehicle depart="11" id="v9" route="rou02" type="BoogyA" />
+  <vehicle depart="14" id="v10" route="rou01" type="BoogyA" />
+  <vehicle depart="16" id="v11" route="rou01" type="BoogyA" />
+  <vehicle depart="17" id="v12" route="rou01" type="BoogyB" color="1,0,0" /> 
+  <vehicle depart="18" id="v13" route="rou02" type="BoogyB" />
+  <vehicle depart="19" id="v14" route="rou02" type="BoogyB" />
+  <vehicle depart="21" id="v15" route="rou01" type="BoogyB" />
+  <vehicle depart="22" id="v16" route="rou01" type="BoogyB" />
+  <vehicle depart="23" id="v17" route="rou02" type="BoogyB" />
+  <vehicle depart="24" id="v18" route="rou02" type="BoogyB" />
+  <vehicle depart="27" id="v19" route="rou02" type="BoogyB" />
+</routes>
